@@ -37,6 +37,8 @@ Per the sprint's non-negotiable rules, zero visible activity (no commits, edits,
 The project board is the single source of truth for tracking work across the sprint. Every task carried out by the team is logged here, along with the 
 member responsible for it and its current status — **To Do**, **In Progress**, or **Done**. Status is updated in real time as work happens, so the board always reflects an accurate picture of who is doing what and how far along each task is. A task only moves to Done once it fully meets its stated Definition of Done, as agreed in the team's Working Charter.
 
+Board link - https://github.com/users/BumbleTom/projects/2
+
 # Collaborative Delivery & Audit Log
 Tracks each member’s contribution with name, email, primary task, and commit link.  
 Captures the final sprint board state for transparency and traceability.  
