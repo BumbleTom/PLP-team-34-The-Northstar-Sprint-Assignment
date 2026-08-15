@@ -39,3 +39,5 @@ member responsible for it and its current status — **To Do**, **In Progress**,
 ## Order Status Decision Tree Flow
 Everything that happens when a customer sends a message about their order status. It covers every decision point, every possible outcome, and the exact reply text the bot sends.
 
+# Collaborative Delivery & Audit Log
+
