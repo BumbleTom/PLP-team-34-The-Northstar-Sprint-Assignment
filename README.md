@@ -34,12 +34,12 @@ All discussion remains respectful and focused on the work product, not on indivi
 Per the sprint's non-negotiable rules, zero visible activity (no commits, edits, or board movement) from any member for two or more consecutive days triggers immediate escalation.
 
 # Project Board
-The project board is the single source of truth for tracking work across the sprint. Every task carried out by the team is logged here, along with the 
-member responsible for it and its current status — **To Do**, **In Progress**, or **Done**. Status is updated in real time as work happens, so the board always reflects an accurate picture of who is doing what and how far along each task is. A task only moves to Done once it fully meets its stated Definition of Done, as agreed in the team's Working Charter.
+The project board is the single source of truth for tracking work across the sprint. Every task carried out by the team is logged here, along with the member responsible for it and its current status — **To Do**, **In Progress**, or **Done**.
+Status is updated in real time as work happens, so the board always reflects an accurate picture of who is doing what and how far along each task is. A task only moves to Done once it fully meets its stated Definition of Done, as agreed in the team's Working Charter.
 
 Board link - https://github.com/users/BumbleTom/projects/2
 
-## Tasks and Definition of Done
+## Defined Tasks and Definition of Done
 
 | Task                                | Definition of Done                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
@@ -56,23 +56,36 @@ Board link - https://github.com/users/BumbleTom/projects/2
 
 
 
-# Collaborative Delivery & Audit Log
-Tracks each member’s contribution with name, email, primary task, and commit link.  
+# Collaborative Delivery
+
+Tracks each member’s contribution with name, email, allocated tasks, and commit link.  
 Captures the final sprint board state for transparency and traceability.  
-Ensures balanced collaboration and provides audit evidence for client validation. 
+Ensures balanced collaboration and provides audit evidence for client validation.
+
 ## Evidence for client validation
-	Member Name	Email	Tasks Owned	Priority
-1	Erick Odiwuor	erickodiwuor014@gmail.com	Draft Team Charter · Add 10+ Tasks to Board · Configure Communication Channels (WhatsApp) · Document Go-Live Note	High / Medium / Low
-2	Belinda Awinja	belindahtom@gmail.com	Set Up GitHub Repository · Create Project Board (Kanban) · Test Chatbot Flows	High / Medium
-3	Asivhannzhi Muofhe (Vanjee)	vhannjee@icloud.com	Write Order Status Chatbot Flow · Test Chatbot Flows	Medium
-4	Emmanuel Argut	emmaargut@gmail.com	Write Returns/Refunds Chatbot Flow · Add Fallback Response to Chatbot	Medium
-5	Rodah Mwikali	makalicaroh@gmail.com	Add Fallback Response to Chatbot (with Emmanuel)	Medium
- 
-## Flow Overview
+
+| Member Name                | Email                        | Tasks Owned                                                                                          | Priority            |
+|-----------------------------|------------------------------|------------------------------------------------------------------------------------------------------|---------------------|
+| Erick Odiwuor              | erickodiwuor014@gmail.com    | Add 10+ Tasks to Board · Configure Communication Channels · Document Go-Live Note                     | High / Medium / High |
+| Belinda Awinja             | belindahtom@gmail.com        | Set Up GitHub Repository · Create Project Board (Kanban) · Test Chatbot Flows                         | High / Medium       |
+| Asivhannzhi Muofhe         | vhannjee@icloud.com          | Write Order Status Chatbot Flow · Test Chatbot Flows                                                  | Medium              |
+| Emmanuel Argut             | emmaargut@gmail.com          | Write Returns/Refunds Chatbot Flow · Add Fallback Response to Chatbot                                 | Medium              |
+| Rodah Mwikali              | makalicaroh@gmail.com        | Draft Team Charter, Add Fallback Response                                                             | High                |
+
+# Audit Log
+
+This is the evidence trail that shows each team member’s contributions and links them to actual work in the project.
+It captures the member identity, task, commit link, and timestamps
+
+Audit Log link - https://github.com/BumbleTom/PLP-team-34-The-Northstar-Sprint-Assignment/commits/main/
+
+## Chatbot Decision Tree flow Overview
+
 This file documents the branching logic for the MVP chatbot.  
 It covers **Order Status** and **Returns/Refunds**  questions
 
 ### Order Status Decision Tree Flow
+
 Everything that happens when a customer sends a message about their order status. It covers every decision point, every possible outcome, and the exact reply text the bot sends.
 
 Order Status link - https://github.com/BumbleTom/PLP-team-34-The-Northstar-Sprint-Assignment/blob/main/AssignmentsFolder/order-status-flow.md
