@@ -1,0 +1,102 @@
+# Go-Live Note — PLP Team 34: The Northstar
+**Project:** AI-Powered Customer Support Chatbot  
+**Date:** August 15, 2026  
+**Prepared by:** Erick Odiwuor  
+**Email:** erickodiwuor014@gmail.com  
+
+---
+
+## 1. What Works
+
+### Chatbot Flows
+- **Order Status Flow** (Vhanje Muofhe)
+  - Bot responds correctly to "Where is my order?" queries
+  - Returns accurate order tracking information
+  - Handles variations of the query successfully
+
+- **Returns & Refunds Flow** (Emmanuel Argut)
+  - Bot explains return steps clearly
+  - Provides accurate refund timeline to users
+  - Covers standard return scenarios
+
+- **Fallback Response** (Rhoda Mwikali + Emmanuel Argut)
+  - Bot replies with escalation message when query is not matched
+  - Users are directed to human support agent successfully
+  - No dead ends in conversation flow
+
+### Infrastructure
+- GitHub repository created and visible to all team members
+- Project board set up with To-Do, In-Progress, and Done columns
+- All 10 tasks added to board with owners assigned and time estimates under 4 hours each
+- WhatsApp group created with all 5 members added
+- Team charter uploaded to repo as TEAM_CHARTER.md
+
+### Testing
+- All chatbot flows tested by Belinda Awinja and Vhanje Muofhe
+- Sample queries run against each flow
+- Responses verified and confirmed accurate
+
+---
+
+## 2. What Is Incomplete
+
+| Item | Reason | Owner |
+|---|---|---|
+| Advanced query handling | Scope exceeded sprint timeline | Emmanuel Argut |
+| Multi-language support (Kiswahili) | Not started — planned for Sprint 2 | Erick Odiwuor |
+| Integration with live order database | Requires backend API access not yet granted | Emmanuel Argut |
+| Analytics dashboard for chatbot responses | Deprioritised — moved to backlog | Belinda Awinja |
+| User feedback collection after chat | Not built — Sprint 2 feature | Rodah Mwikali |
+
+---
+
+## 3. Next Steps
+
+### Immediate (Before Sprint 2 Launch)
+- [ ] Connect chatbot to live order tracking database (Emmanuel)
+- [ ] Add Kiswahili language support to all flows (Erick)
+- [ ] Conduct second round of QA testing on updated flows (Belinda + Vhanje)
+
+### Sprint 2 Priorities
+- [ ] Build analytics dashboard to track most common user queries
+- [ ] Add user satisfaction rating at end of each chat session
+- [ ] Expand returns flow to cover partial refunds and exchanges
+- [ ] Add payment query flow as new chatbot feature
+- [ ] Document all API endpoints for future developer handover
+
+### Long Term
+- [ ] Integrate chatbot with WhatsApp Business API for wider reach
+- [ ] Explore voice-based support for low-literacy users
+- [ ] Conduct bias audit on chatbot responses across different user types
+
+---
+
+## 4. Team Contributions Summary
+
+| Member | Task | Status |
+|---|---|---|
+| Erick Odiwuor | Added 10+ tasks to board; configured WhatsApp; authored Go-Live Note | Done |
+| Rodah Mwikali | Frontend UI prototyping; fallback response co-author | Done |
+| Belinda Awinja | Repo setup; Kanban board; QA testing | Done |
+| Emmanuel Argut | Returns/refunds flow; fallback response co-author | Done |
+| Vhanje Muofhe | Order status chatbot flow; QA testing | Done |
+
+---
+
+## 5. Definition of Done — Checklist
+
+- [x] Team charter uploaded as TEAM_CHARTER.md
+- [x] Repo created with README, visible to all members
+- [x] Kanban board created with To-Do, In-Progress, Done columns
+- [x] 10+ tasks added to board, each under 4 hours, with owners
+- [x] WhatsApp group created with all members added
+- [x] Order status chatbot flow working
+- [x] Returns/refunds chatbot flow working
+- [x] Fallback response working
+- [x] All flows tested and verified
+- [x] Go-Live Note uploaded to repo
+
+---
+
+*Submitted by Erick Odiwuor — PLP Team 34: The Northstar*  
+*erickodiwuor014@gmail.com*
