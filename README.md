@@ -42,7 +42,14 @@ Board link - https://github.com/users/BumbleTom/projects/2
 # Collaborative Delivery & Audit Log
 Tracks each member’s contribution with name, email, primary task, and commit link.  
 Captures the final sprint board state for transparency and traceability.  
-Ensures balanced collaboration and provides audit evidence for client validation.  
+Ensures balanced collaboration and provides audit evidence for client validation. 
+## Evidence for client validation
+	Member Name	Email	Tasks Owned	Priority
+1	Erick Odiwuor	erickodiwuor014@gmail.com	Draft Team Charter · Add 10+ Tasks to Board · Configure Communication Channels (WhatsApp) · Document Go-Live Note	High / Medium / Low
+2	Belinda Awinja	belindahtom@gmail.com	Set Up GitHub Repository · Create Project Board (Kanban) · Test Chatbot Flows	High / Medium
+3	Asivhannzhi Muofhe (Vanjee)	vhannjee@icloud.com	Write Order Status Chatbot Flow · Test Chatbot Flows	Medium
+4	Emmanuel Argut	emmaargut@gmail.com	Write Returns/Refunds Chatbot Flow · Add Fallback Response to Chatbot	Medium
+5	Rodah Mwikali	makalicaroh@gmail.com	Add Fallback Response to Chatbot (with Emmanuel)	Medium
  
 ## Flow Overview
 This file documents the branching logic for the MVP chatbot.  
