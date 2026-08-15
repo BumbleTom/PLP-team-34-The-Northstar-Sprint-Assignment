@@ -82,13 +82,50 @@ Audit Log link - https://github.com/BumbleTom/PLP-team-34-The-Northstar-Sprint-A
 ## Chatbot Decision Tree flow Overview
 
 This file documents the branching logic for the MVP chatbot.  
-It covers **Order Status** and **Returns/Refunds**  questions
+It covers **Order Status** and **Returns/Refunds**  questions, **Fallback Response** and **Chatbot Testing flow**
 
-### Order Status Decision Tree Flow
+### 1. Order Status Decision Tree Flow
 
 Everything that happens when a customer sends a message about their order status. It covers every decision point, every possible outcome, and the exact reply text the bot sends.
 
 Order Status link - https://github.com/BumbleTom/PLP-team-34-The-Northstar-Sprint-Assignment/blob/main/AssignmentsFolder/order-status-flow.md
+
+### 2. Returns & Refunds Decision Tree Flow
+
+This is designed to guide the chatbot in handling customer queries about returning items or requesting refunds. It ensures the bot explains the return steps clearly and provides the refund timeline so customers get direct, automated answers without needing a human intervention.
+
+Returns & Refunds link - https://github.com/BumbleTom/PLP-team-34-The-Northstar-Sprint-Assignment/blob/main/AssignmentsFolder/Return_refund_decision_tree_flow
+
+### 3. Fallback Response
+
+This is what the bot says when it doesn’t understand or can’t match a user’s query to any of the defined intents.
+
+Fallback link - https://github.com/BumbleTom/PLP-team-34-The-Northstar-Sprint-Assignment/blob/main/Fallback%20Responce%20Decision%20Tree
+
+### 4. Chatbot Testing Flow
+
+This document explains how the chatbot will be tested before it's considered ready to demo or hand off. It focuses on the order status, returns and fallback response branches from the Chatbot Decision Flow.
+
+Testing flow link - https://github.com/BumbleTom/PLP-team-34-The-Northstar-Sprint-Assignment/blob/main/AssignmentsFolder/chatbot-testing-flow%202.md
+
+## GO-LIVE-Note
+
+This is the final handover document for the project sprint. It captures what was delivered, what remains incomplete, and the next steps, giving the client a clear snapshot of the project’s readiness.
+
+Note Link - https://github.com/BumbleTom/PLP-team-34-The-Northstar-Sprint-Assignment/blob/main/GO_LIVE_NOTE%20md
+
+# Challenges Faced and Solutions rendered
+
+## Challenges
+
+1. Task dependency confusion - Two people working on the same task without a clear handoff point, which caused duplicated efforts and conflicting versions of the same deliverable.
+2. Availability differences - Different schedules from the rest of the team which slowed down the chatbot testing phase.
+
+## Solutions rendered
+1. We resolved to using the GitHub project board itself as our tasks communication tool. Each task task card was moved visibly from to-do to in-progress to done so everyone could see what was ready for the next person.
+2. We agreed on the 24-hourvresponse rule, whereby, any update, file or review request had to be acknowledged within 24-hours. We also used the WhatsApp group to send quick status updates.
+
+
 
 
 
