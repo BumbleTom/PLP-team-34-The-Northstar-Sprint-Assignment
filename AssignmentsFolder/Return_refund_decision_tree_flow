@@ -1,0 +1,53 @@
+NORTHSTAR RETAIL CO.
+Returns & Refunds Decision Tree Flow
+
+START
+  ↓
+What do you need help with?
+  ├── Return an item
+  │     ↓
+  │   Do you have your order number?
+  │     ├── No → Explain where to find order number → Back to Main Menu
+  │     └── Yes → Enter order number
+  │                ↓
+  │             Order found?
+  │                ├── No → Try Again / Back to Main Menu
+  │                └── Yes
+  │                     ↓
+  │             Item in original condition?
+  │                ├── No → Not eligible → View Policy / Main Menu
+  │                └── Yes
+  │                     ↓
+  │             Within 30-day return window?
+  │                ├── No → Return period expired → View Policy / Main Menu
+  │                └── Yes → Eligible → Show return instructions
+  │
+  ├── Check refund status
+  │     ↓
+  │   Enter order number → System checks refund
+  │     ├── Not Started → Explain processing stage
+  │     ├── In Progress → Explain expected processing
+  │     ├── Completed → Confirm refund issued
+  │     └── Failed → Contact Support
+  │
+  ├── How long do I have to return?
+  │     ↓
+  │   Explain 30-day return window and exceptions → View Policy / Main Menu
+  │
+  └── Other question
+        ↓
+      Show available returns/refunds options → Contact Support if needed
+
+3. Decision Rules
+•	Return eligibility: Order must be found, item must be in original condition, and item must be within the defined return window.
+•	Return window: Use 30 days from delivery for the MVP. Northstar should confirm the final production policy before deployment.
+•	Refund status: Support at least four states: Not Started, In Progress, Completed, and Failed.
+•	Unknown order: Never fabricate order information. Ask the customer to retry or provide a route to support.
+•	Fallback: Every branch should provide a way back to the main menu; unresolved issues should offer Contact Support.
+4. MVP UX Requirements
+•	Use simple buttons/options wherever possible to reduce ambiguous customer input.
+•	Keep each response short, clear, and reassuring.
+•	Avoid dead ends: every branch should provide a next action.
+•	Show Back to Main Menu on appropriate response screens.
+•	Provide Contact Support when the decision tree cannot resolve the customer's issue.
+•	Do not expose internal system details, database errors, or technical error messages to customers.
