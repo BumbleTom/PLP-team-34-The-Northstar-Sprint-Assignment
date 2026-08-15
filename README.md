@@ -32,3 +32,7 @@ All discussion remains respectful and focused on the work product, not on indivi
 
 ## 5. Escalation Path — Inactivity
 Per the sprint's non-negotiable rules, zero visible activity (no commits, edits, or board movement) from any member for two or more consecutive days triggers immediate escalation.
+
+## Order Status Decision Tree Flow
+Everything that happens when a customer sends a message about their order status. It covers every decision point, every possible outcome, and the exact reply text the bot sends.
+
