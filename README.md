@@ -39,6 +39,23 @@ member responsible for it and its current status — **To Do**, **In Progress**,
 
 Board link - https://github.com/users/BumbleTom/projects/2
 
+## Tasks and Definition of Done
+
+| Task                                | Definition of Done                                                                 |
+|-------------------------------------|-----------------------------------------------------------------------------------|
+| Draft Team Charter Document         | Charter uploaded to repo as TEAM_CHARTER.md                                        |
+| Set Up GitHub Repository            | Repo created, initialized with README, visible to team                            |
+| Create Project Board (Kanban)       | Board created with To‑Do, In‑Progress, Done columns                               |
+| Add 10+ Tasks to Board              | Tasks listed, each ≤4 hours, with owners assigned                                 |
+| Configure Communication Channels    | WhatsApp group created, all members added                                         |
+| Write Order Status Chatbot Flow     | Bot responds correctly to "Where is my order?" queries                            |
+| Write Returns/Refunds Chatbot Flow  | Bot explains return steps and refund timeline                                     |
+| Add Fallback Response to Chatbot    | Bot replies with escalation message when query not matched                        |
+| Test Chatbot Flows                  | Each flow tested with sample queries, responses verified                          |
+| Document Go‑Live Note               | One‑page summary of what works, what's incomplete, and next steps added to repo   |
+
+
+
 # Collaborative Delivery & Audit Log
 Tracks each member’s contribution with name, email, primary task, and commit link.  
 Captures the final sprint board state for transparency and traceability.  
