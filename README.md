@@ -33,6 +33,9 @@ All discussion remains respectful and focused on the work product, not on indivi
 ## 5. Escalation Path — Inactivity
 Per the sprint's non-negotiable rules, zero visible activity (no commits, edits, or board movement) from any member for two or more consecutive days triggers immediate escalation.
 
+# Project Board
+The project board is the single source of truth for tracking work across the sprint. Every task carried out by the team is logged here, along with the 
+member responsible for it and its current status — **To Do**, **In Progress**, or **Done**. Status is updated in real time as work happens, so the board always reflects an accurate picture of who is doing what and how far along each task is. A task only moves to Done once it fully meets its stated Definition of Done, as agreed in the team's Working Charter.
 ## Order Status Decision Tree Flow
 Everything that happens when a customer sends a message about their order status. It covers every decision point, every possible outcome, and the exact reply text the bot sends.
 
