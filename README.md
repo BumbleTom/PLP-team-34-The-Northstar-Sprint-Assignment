@@ -38,8 +38,15 @@ The project board is the single source of truth for tracking work across the spr
 member responsible for it and its current status — **To Do**, **In Progress**, or **Done**. Status is updated in real time as work happens, so the board always reflects an accurate picture of who is doing what and how far along each task is. A task only moves to Done once it fully meets its stated Definition of Done, as agreed in the team's Working Charter.
 
 # Collaborative Delivery & Audit Log
+Tracks each member’s contribution with name, email, primary task, and commit link.  
+Captures the final sprint board state for transparency and traceability.  
+Ensures balanced collaboration and provides audit evidence for client validation.  
+ 
+## Flow Overview
+This file documents the branching logic for the MVP chatbot.  
+It covers **Order Status** and **Returns/Refunds**  questions
 
-## Order Status Decision Tree Flow
+### Order Status Decision Tree Flow
 Everything that happens when a customer sends a message about their order status. It covers every decision point, every possible outcome, and the exact reply text the bot sends.
 
 
