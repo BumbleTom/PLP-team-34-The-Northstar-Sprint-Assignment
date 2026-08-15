@@ -1,0 +1,30 @@
+# Fallback Response — Decision Tree
+
+## Introduction
+When a customer's issue doesn't match order status or returns/refunds, the fallback tree takes over. It asks one triage question, then routes the customer to either a human agent or a self-serve help link — no free text, just clicks.
+
+## The Decision Tree
+
+```
+Fallback triggered
+        │
+        ▼
+"What best describes your need?"
+        │
+   ┌────┼────────┬──────────┐
+   ▼    ▼        ▼          ▼
+Product Billing Feedback  Not sure
+/account issue             │
+   │      │       │        ▼
+   └──────┴───────┘   Help center link
+        ▼              (no ticket created)
+  Escalate to agent
+  (category shared
+   with the agent)
+```
+
+## What's Happening
+- Product/account, Billing issue, Feedback → escalate to a human, with the chosen category attached so the agent has context
+- Not sure → no ticket is created; the customer is pointed to the help center instead
+
+This keeps the fallback consistent with the rest of the tool (button clicks only) and still deflects tickets where possible, instead of escalating everything by default.
