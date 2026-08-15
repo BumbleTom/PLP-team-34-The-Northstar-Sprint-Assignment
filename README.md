@@ -51,5 +51,7 @@ It covers **Order Status** and **Returns/Refunds**  questions
 ### Order Status Decision Tree Flow
 Everything that happens when a customer sends a message about their order status. It covers every decision point, every possible outcome, and the exact reply text the bot sends.
 
+Order Status link - https://github.com/BumbleTom/PLP-team-34-The-Northstar-Sprint-Assignment/blob/main/AssignmentsFolder/order-status-flow.md
+
 
 
